@@ -1,0 +1,13 @@
+<header>
+  <h1>Hello {{currentUser.firstName}}!</h1>
+  <p>You have successfully logged into your account!</p>
+</header>
+<div  class="row">
+  <!-- *** Content Component *** -->
+  <app-content [albums]="albums" (selectedAlbum)="onSelectedAlbum($event)" class="col-6 component"></app-content>
+  <!-- *** Content-Detail Component *** -->
+  <app-content-detail [selectedAlbum]="selectedAlbum" class="col-6 component"></app-content-detail>
+</div>
+<footer style="padding-top: 20px;">
+  <p>An NG-App by <a href="http://github.com/jmalessi" target="_blank"><u>J.M. Alessi</u></a>.</p>
+</footer>

@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(4, 40, 80);
+  color: #EEEEEE;
+}
+
+/*** Typography ***/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+h1, h2, p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+/*** Links ***/
+
+a:link {
+  color: #EEEEEE;
+}
+
+a:visited {
+  color: #EEEEEE;
+}
+
+a:hover {
+  color: #FF0000;
+}
+
+a:active {
+  color: rgb(116, 0, 0);
+}
+
+/*** Buttons & Forms ***/
+
+.login-form {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  input {
+    margin: auto;
+    margin-bottom: -20px;
+    width: 200px;
+    margin-bottom: 1px;
+  }
+}
+
+.login-form, .component {
+  border-radius: 10px;
+  border: 1px solid #CCCCCC;
+  padding: 5% 5% 5% 5%;
+  text-align: center;
+  background-color: rgb(15, 65, 122);
+  color: #EEEEEE;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content-button {
+  border-radius: 10px;
+  border: 1px solid #CCCCCC;
+  margin-bottom: 10px;
+  padding: 0px 20px 0px 20px;
+  text-align: center;
+  background-color: #0011ff6b;
+  color: #EEEEEE;
+}
+
+.content-button:hover {
+  background-color: rgb(4, 40, 80);
+  cursor: pointer;
+}
+
+/*** Navbar ***/
+
+nav.navbar {
+  background-color: rgb(4, 40, 80) !important;
+  color: #EEEEEE !important;
+  a:link {
+    color: #EEEEEE !important;
+  }
+  a:visited {
+    color: #EEEEEE !important;
+  }
+  a:hover {
+    color: #FF0000 !important;
+  }
+  a:active {
+    color: rgb(116, 0, 0) !important;
+  }
+}
